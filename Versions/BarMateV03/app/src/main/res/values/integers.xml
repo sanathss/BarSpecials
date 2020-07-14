@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="lunch_left">1</integer>
+    <integer name="lunch_right">4</integer>
+    <integer name="dinner_left">1</integer>
+    <integer name="dinner_right">3</integer>
+</resources>

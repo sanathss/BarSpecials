@@ -1,0 +1,19 @@
+Data Source=tcp:192.168.1.64,1433;Initial Catalog=Bar_Mate;Persist Security Info=True;User ID=sanaths;Password=Cocobata1;
+
+
+Auckland lat&long -36.848461,‎174.763336	
+
+Google places api key:	AIzaSyBwuBhSkRpALHU9cVIoNtWn-c6hcMwJiZw
+
+https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=mongolian%20grill&inputtype=textquery&fields=photos,formatted_address,name,opening_hours,rating&locationbias=circle:2000@47.6918452,-122.2226413&key=YOUR_API_KEY
+
+https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522,151.1957362&radius=1500&type=restaurant&keyword=cruise&key=YOUR_API_KEY
+
+https://maps.googleapis.com/maps/api/place/nearbysearch/json?location-36.87816,174.7754262&radius=1500&type=restaurant&keyword=cruise&key=AIzaSyBwuBhSkRpALHU9cVIoNtWn-c6hcMwJiZw
+
+
+A5:F7:A0:1D:B9:91:04:96:40:18:03:A3:21:98:0C:7E:A9:B4:93:F600
+com.example.sanat.googleplaces
+AIzaSyCRTN2uy-MSBrAgGMCuH7qLFJuiW7Thlcg
+
+BatW0lffang3X

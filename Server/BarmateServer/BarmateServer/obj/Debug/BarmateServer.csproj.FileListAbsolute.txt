@@ -1,0 +1,14 @@
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\bin\Debug\BarmateServer.exe.config
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\bin\Debug\BarmateServer.exe
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\bin\Debug\BarmateServer.pdb
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\obj\Debug\BarmateServer.csprojAssemblyReference.cache
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\obj\Debug\BarmateServer.csproj.CoreCompileInputs.cache
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\obj\Debug\BarmateServer.exe
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\obj\Debug\BarmateServer.pdb
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\obj\Debug\BarmateServer.csproj.CopyComplete
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\bin\Debug\BarmateServer.exe.manifest
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\bin\Debug\BarmateServer.application
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\obj\Debug\BarmateServer.exe.manifest
+D:\Projects\BarSpecials\Server\BarmateServer\BarmateServer\obj\Debug\BarmateServer.application

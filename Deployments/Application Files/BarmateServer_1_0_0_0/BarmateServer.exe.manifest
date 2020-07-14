@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BarmateServer.exe" version="1.0.0.0" publicKeyToken="e139df9911dbcc96" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BarmateServer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BarmateServer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BarmateServer.exe" size="40416">
+      <assemblyIdentity name="BarmateServer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OUTxuSwf7obUoXrSp6VoHLcpO/02TD3saCupLVG6BFQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="662528">
+      <assemblyIdentity name="Newtonsoft.Json" version="11.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9Yw3T/yq5ONtdA2Q+/f+cNCrtzKM2a86CntwgD6ZS6Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BarmateServer.exe.config" size="522">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zRkhMvdvyJIcWZmGzHMR5hgvf6MNVQB+7oZWge0IXcI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-09DNH6O5\sanat" issuerKeyHash="8e20c3eaa79ad4c07c08465b55c142e9067ebedb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4JZvcSWwhVChJMeuDXmG/MO3ui24ELTKZyf3x1FzkCk=</DigestValue></Reference></SignedInfo><SignatureValue>xAqn6i39uT789oH+/hwWq/C908FMVhzoL29L9yjIUn8g2XeDjOOna5FwDTmymBa1LHVs9ojbGvlGdfE+mRoy6PiFy/Hg+lod1TqCP1cIfS/ognDDJyLIomZc2YDameX4knLW7kk5uAsJHscegsuKum62+3FFek40ICIfbqbLICU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yUhWeBUqHPSq/WrIkCvfuffNwnSnFW+Pi9bhdavmMOWv8WFFZeVdbN0TrMNXe0v3slpqWKD0Yi1rJS8FJGQa4tDfXkCx7LyNQ4YcN1EQ6oKa+h1jlSDSKtrZI7thva3xnIhP2dXFr6Z2Ieun/uHf/PNH4PKYNW3NLtXIV4xgCj0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="29907351c7f72767cab410b82dbab7c3fc86790daec724a15085b025716f96e0" Description="" Url=""><as:assemblyIdentity name="BarmateServer.exe" version="1.0.0.0" publicKeyToken="e139df9911dbcc96" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-09DNH6O5\sanat</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>O7mgqEi4cvEpH/X+kUlGGDowcfE5YOmGRMawFt71P2o=</DigestValue></Reference></SignedInfo><SignatureValue>Dn+OG1yhHfP2Wl0pPjSfIDq2isK6d9TVwts6bzQKGLoLOWOJ2++MZOB11r+eFt67ghhy9SPA15U0MnJ4Q1RtWbMEOXTkoGmueJHdgjZmjUwe7WrHJtYHAn+RT4Z5IWm3cEFlCMNLgEW4jaNpDEpTVEDdbvpgmLYx+0bqbJ+M+10=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yUhWeBUqHPSq/WrIkCvfuffNwnSnFW+Pi9bhdavmMOWv8WFFZeVdbN0TrMNXe0v3slpqWKD0Yi1rJS8FJGQa4tDfXkCx7LyNQ4YcN1EQ6oKa+h1jlSDSKtrZI7thva3xnIhP2dXFr6Z2Ieun/uHf/PNH4PKYNW3NLtXIV4xgCj0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQVnGs4rE5iYtGo0j4AKF0gzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQAwADkARABOAEgANgBPADUAXABzAGEAbgBhAHQwHhcNMTgwODIyMDYxNDM3WhcNMTkwODIyMTIxNDM3WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQAwADkARABOAEgANgBPADUAXABzAGEAbgBhAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMlIVngVKhz0qv1qyJAr37n3zcJ0pxVvj4vW4XWr5jDlr/FhRWXlXWzdE6zDV3tL97Jaalig9GItayUvBSRkGuLQ315Asey8jUOGHDdREOqCmvodY5Ug0ira2SO7Yb2t8ZyIT9nVxa+mdiHrp/7h3/zzR+DymDVtzS7VyFeMYAo9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAOOzhmdOEwrDp8uNBOC76HR4Iv/y3yiixK35VLDmmfwmEFnZgGiTr+Iz1wy7giU+m6vO2F1fbY6Jjp8n4zRXehbe8/pgab/A/8XkQMurmVlX+eoTwrMRcY0BxJO6+kjMhNzqofpY2d1/l0WoO97LM5ZlTVgz0V7RW5cs0CFcuXB0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

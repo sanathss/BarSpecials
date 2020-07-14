@@ -1,0 +1,47 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -36.8784517,
+               "lng" : 174.77628
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -36.8771185197085,
+                  "lng" : 174.7777199802915
+               },
+               "southwest" : {
+                  "lat" : -36.8798164802915,
+                  "lng" : 174.7750220197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "a62b9ceb4e2b1ec465a32a4313154d536e0f7c71",
+         "name" : "Fuku Sushi",
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117414436226443487160/photos\"\u003e???\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAM6ZfRJauuG20ZGWthHkn9KR-UzxDq1hejIoNqK5F-p49DTDXuos_-xewN6eayl2DqvofjjF20r28dvatDAG5IkyGnH7RyYl7WH0FOM5FqOg0-8g97TevfXoat1LNvFrDEhAv7ywp3Tehi4AEosli1assGhSKFoXzEWDae3yBeGJvRdtq2sI0eQ",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJvXTh3X5IDW0RDFTDF9WjLEs",
+         "plus_code" : {
+            "compound_code" : "4QCG+JG Epsom, Auckland, New Zealand",
+            "global_code" : "4VMP4QCG+JG"
+         },
+         "rating" : 5,
+         "reference" : "CmRRAAAAO_zkXSmsL6I_D2mIBxfgcAGt4DYnSaNewd-fC5bZ9hg_-rGRVMJD0rJjiJ1xRp32kg09nCVjGndIty4PEHg2VPNPmsqOpTX3GFBk-0PHbbW6zoXribZRNNlrEWFuelKuEhBJHutlZxE8xl4m18sDFkJuGhSfmFpe_iTxbQg1nRgwnOZe1ht0wg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "97E Manukau Road, Epsom, Auckland"
+      }
+   ],
+   "status" : "OK"
+}

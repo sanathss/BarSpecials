@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.75" name="BarMateDatabase">
+  <DataContextMoniker Name="/BarMateDatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f3b13609-645c-43ba-8c88-de322e28ca23" absoluteBounds="2, 0.875, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/BarMateDatabaseDataContext/uo_store" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9390bc06-da07-4d35-bcd4-5697dcd3bf96" absoluteBounds="2.015, 1.335, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="82a1891f-6022-427a-be12-7028f0948814" absoluteBounds="6, 0.875, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/BarMateDatabaseDataContext/uo_special" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e8d1809b-64ee-4863-8315-105a2e51cb12" absoluteBounds="6.015, 1.335, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4 : 2.62580485026042); (6 : 2.62580485026042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BarMateDatabaseDataContext/uo_store/uo_store_uo_special" />
+      <nodes>
+        <classShapeMoniker Id="f3b13609-645c-43ba-8c88-de322e28ca23" />
+        <classShapeMoniker Id="82a1891f-6022-427a-be12-7028f0948814" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="85886e15-2f4c-4a7d-af92-8360dfe7ce99" absoluteBounds="2, 5.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/BarMateDatabaseDataContext/uo_suburb" />
+      <nestedChildShapes>
+        <elementListCompartment Id="43358499-b197-4205-8825-e456208f6512" absoluteBounds="2.015, 6.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3 : 5.75); (3 : 4.37660970052083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BarMateDatabaseDataContext/uo_suburb/uo_suburb_uo_store" />
+      <nodes>
+        <classShapeMoniker Id="85886e15-2f4c-4a7d-af92-8360dfe7ce99" />
+        <classShapeMoniker Id="f3b13609-645c-43ba-8c88-de322e28ca23" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a490e089-9e15-41c2-b91e-b38f2341000e" absoluteBounds="6, 5.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/BarMateDatabaseDataContext/so_system_parameter" />
+      <nestedChildShapes>
+        <elementListCompartment Id="90832a18-2ecb-470b-b3ca-eef041ea77ea" absoluteBounds="6.015, 6.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

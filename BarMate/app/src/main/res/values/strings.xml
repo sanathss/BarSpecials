@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bar Mate</string>
+    <string name="active">Active</string>
+    <string name="inactive">InActive</string>
+    <string name="channel_name">Channel</string>
+    <string name="channel_description">ChannelDescription</string>
+</resources>

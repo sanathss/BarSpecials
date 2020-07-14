@@ -1,0 +1,11 @@
+D:\Projects\BarSpecials\AddStores\AddStores\bin\Debug\netcoreapp2.0\AddStores.deps.json
+D:\Projects\BarSpecials\AddStores\AddStores\bin\Debug\netcoreapp2.0\AddStores.runtimeconfig.json
+D:\Projects\BarSpecials\AddStores\AddStores\bin\Debug\netcoreapp2.0\AddStores.runtimeconfig.dev.json
+D:\Projects\BarSpecials\AddStores\AddStores\bin\Debug\netcoreapp2.0\AddStores.dll
+D:\Projects\BarSpecials\AddStores\AddStores\obj\Debug\netcoreapp2.0\AddStores.csprojAssemblyReference.cache
+D:\Projects\BarSpecials\AddStores\AddStores\obj\Debug\netcoreapp2.0\AddStores.csproj.CoreCompileInputs.cache
+D:\Projects\BarSpecials\AddStores\AddStores\obj\Debug\netcoreapp2.0\AddStores.AssemblyInfoInputs.cache
+D:\Projects\BarSpecials\AddStores\AddStores\obj\Debug\netcoreapp2.0\AddStores.AssemblyInfo.cs
+D:\Projects\BarSpecials\AddStores\AddStores\bin\Debug\netcoreapp2.0\AddStores.pdb
+D:\Projects\BarSpecials\AddStores\AddStores\obj\Debug\netcoreapp2.0\AddStores.dll
+D:\Projects\BarSpecials\AddStores\AddStores\obj\Debug\netcoreapp2.0\AddStores.pdb

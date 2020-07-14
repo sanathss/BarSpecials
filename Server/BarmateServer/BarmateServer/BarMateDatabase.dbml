@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Bar_Mate" Class="BarMateDatabaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LocalHost;Initial Catalog=Bar_Mate;Integrated Security=True" SettingsObjectName="BarmateServer.Properties.Settings" SettingsPropertyName="Bar_MateConnectionString3" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.uo_store" Member="uo_stores">
+    <Type Name="uo_store">
+      <Column Name="store_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="store_identifier" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="store_name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="store_lat" Type="System.Decimal" DbType="Decimal(18,6) NOT NULL" CanBeNull="false" />
+      <Column Name="store_long" Type="System.Decimal" DbType="Decimal(18,6) NOT NULL" CanBeNull="false" />
+      <Column Name="suburb_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="user_password" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="insert_user" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="insert_process" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="insert_datetime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="update_user" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="update_process" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="update_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="uo_store_uo_special" Member="uo_specials" ThisKey="store_id" OtherKey="store_id" Type="uo_special" />
+      <Association Name="uo_suburb_uo_store" Member="uo_suburb" ThisKey="suburb_id" OtherKey="suburb_id" Type="uo_suburb" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.uo_special" Member="uo_specials">
+    <Type Name="uo_special">
+      <Column Name="special_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="store_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="special_name" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="special_description" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="price" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="duration" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="receipt_counter" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="active" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="insert_user" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="insert_process" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="insert_datetime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="update_user" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="update_process" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="update_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="uo_store_uo_special" Member="uo_store" ThisKey="store_id" OtherKey="store_id" Type="uo_store" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.uo_suburb" Member="uo_suburbs">
+    <Type Name="uo_suburb">
+      <Column Name="suburb_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="suburb_name" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="city_name" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="active" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="insert_datetime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="insert_user" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="insert_process" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="update_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="update_user" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="update_process" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="uo_suburb_uo_store" Member="uo_stores" ThisKey="suburb_id" OtherKey="suburb_id" Type="uo_store" />
+    </Type>
+  </Table>
+  <Table Name="dbo.so_system_parameters" Member="so_system_parameters">
+    <Type Name="so_system_parameter">
+      <Column Name="parameter_id" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="param_code" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="param_name" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="parameter" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="insert_user" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="insert_process" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="insert_datetime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="update_user" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="update_process" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="update_datetime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
